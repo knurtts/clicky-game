@@ -44,4 +44,4 @@ export default App;
 
 //Components
   //picture card
-  //
+  //Header with score and title of game
