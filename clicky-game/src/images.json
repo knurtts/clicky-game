@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Biolante",
+        "img": "./public/assets/images/Biolante.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Destroyah",
+        "img": "./public/assets/images/Destroyah.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ghidorah",
+        "img": "./public/assets/images/Ghidorah.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Godzilla",
+        "img": "./public/assets/images/Godzilla.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Goji2014",
+        "img": "./public/assets/images/goji001.jpg"
+    },
+    {
+        "id": 6,
+        "name": "GvGhidorah",
+        "img": "./public/assets/images/GvGhidorah.jpg"
+    },
+    {
+        "id": 7,
+        "name": "GvMothra",
+        "img": "./public/assets/images/GvMothra.jpg"
+    },
+    {
+        "id": 8,
+        "name": "GvSG",
+        "img": "./public/assets/images/GvSG.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mothra",
+        "img": "./public/assets/images/Mothra.jpg"
+    },
+    {
+        "id": 10,
+        "name": "rodan",
+        "img": "./public/assets/images/rodan.jpg"
+    }
+]

@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import images from "./images.json";
 
 class App extends Component {
+  state = {
+    gojis: {images},
+    score: 0,
+    maxScore: 0
+  };
+
+  randomize = () => {
+
+  }
+
   render() {
     return (
       <div className="App">
