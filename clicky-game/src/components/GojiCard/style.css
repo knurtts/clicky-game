@@ -1,3 +1,11 @@
 .card {
-    width: 18rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    transition: 0.3s;
+}
+.card :hover {
+    background-color: #7c7c7c;
+    transition: 0.3s;
 }

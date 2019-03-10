@@ -1,12 +1,15 @@
 import React from "react";
 import "./style.css";
 
-function GojiCard(props) {
+
+export default function GojiCard(props) {
     return (
-        <div className="card" onClick={ () => props.Randomize()}>
-            <img src={props.img} className="card-img-top" alt="..." />
+        <div className="card">
+        <img 
+            src={props.src} className="card-img-top" 
+            alt={props.name} 
+            onClick={props.increaseScore} 
+            id={props.key} />
         </div>
     );
 };
-
-export default GojiCard;
