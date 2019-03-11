@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #707070;
+  background-image: url("http://getwallpapers.com/wallpaper/full/9/0/b/162630.jpg");
+}
