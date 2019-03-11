@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Biolante",
-        "img": "../assets/images/Biolante.jpg"
+        "img": "../asseimages/Biolante.jpg"
     },
     {
         "id": 2,
         "name": "Destroyah",
-        "img": "../assets/images/Destroyah.jpg"
+        "img": "./Destroyah.jpg"
     },
     {
         "id": 3,
         "name": "Ghidorah",
-        "img": "../assets/images/Ghidorah.jpg"
+        "img": "./Ghidorah.jpg"
     },
     {
         "id": 4,
         "name": "Godzilla",
-        "img": "../assets/images/Godzilla.jpg"
+        "img": "./Godzilla.jpg"
     },
     {
         "id": 5,
         "name": "Goji2014",
-        "img": "../assets/images/goji001.jpg"
+        "img": "./goji001.jpg"
     },
     {
         "id": 6,
         "name": "GvGhidorah",
-        "img": "../assets/images/GvGhidorah.jpg"
+        "img": "./GvGhidorah.jpg"
     },
     {
         "id": 7,
         "name": "GvMothra",
-        "img": "../assets/images/GvMothra.jpg"
+        "img": "./GvMothra.jpg"
     },
     {
         "id": 8,
         "name": "GvSG",
-        "img": "../assets/images/GvsSG.jpg"
+        "img": "./GvsSG.jpg"
     },
     {
         "id": 9,
         "name": "Mothra",
-        "img": "../assets/images/Mothra.jpg"
+        "img": "./Mothra.jpg"
     },
     {
         "id": 10,
         "name": "rodan",
-        "img": "../assets/images/rodan.jpg"
+        "img": "./rodan.jpg"
     },
     {
         "id": 11,
         "name": "ShinGoji",
-        "img": "../assets/images/ShinGoji.jpg"
+        "img": "./ShinGoji.jpg"
     },
     {
         "id": 12,
         "name": "GojiReturn",
-        "img": "../assets/images/GojiReturn.jpg"
+        "img": "./GojiReturn.jpg"
     }
 ]
