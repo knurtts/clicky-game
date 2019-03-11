@@ -9,14 +9,13 @@ class App extends Component {
     gojis: images,
     score: 0,
     maxScore: 0,
-    active: false,
     clicked: [0]
   };
 
-  increaseScore = () => {
-    this.setState({score: this.state.score +1});
-    this.toggleClass();
-  };
+  // increaseScore = () => {
+  //   this.setState({score: this.state.score +1});
+  //   this.toggleClass();
+  // };
 
   shuffleData = images => {
     let i = images.length -1;
@@ -30,14 +29,7 @@ class App extends Component {
     return images;
   }
 
-  toggleClass = () => {
-    const currentState = this.state.active;
-    this.setState({ active: !currentState });
-  };
-
-  //get id of goji clicked
   isClicked = id => {
-
     for (let i = 0; i < this.state.clicked.length; i++) {
 
       if (this.state.clicked.includes(id)) {
@@ -51,7 +43,6 @@ class App extends Component {
           })
         }
       }
-    // console.log(this.state.clicked);
   };
 
   endGame = () => {
@@ -83,7 +74,6 @@ class App extends Component {
               idCard={goji.id}
               src={goji.img}
               name={goji.name}
-              increaseScore={this.increaseScore}
               toggle={this.toggleClass}
               newClass={this.state.active ? "shake" : null}
               clicked={this.isClicked}
@@ -96,24 +86,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-//populate 12 pictures which are clickable --DONE
-  //map over array of pictures to display them in cards --DONE
-//Each picture will modify a state for that picture to say that it has been clicked
-//Each time a picture is clicked the pictures reorder themselves randomly
-  //Player score increases by 1 --DONE
-  //if picture has already been clicked, player loses
-  //screen shake?
-  //score resets to 0
-//If score reaches 12 Player wins
-  //screen hops?
-  //Congratulations message appears
-  //Game restarts
-
-
-//Components
-  //picture card --DONE
-  //Header with score and title of game --DONE
-  
-  
